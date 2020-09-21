@@ -28,6 +28,12 @@ namespace WebAPI.Controllers
         [HttpGet]
         public IEnumerable<Users> GetUsers()
         {
+            List<Users> lstUsers = new List<Users>();
+            List<Education> lstEducation = new List<Education>();
+            lstUsers = _context.Users.ToList();
+            lstEducation = _context.Educations.ToList();
+
+
             return _context.Users.ToList();
         }
 
