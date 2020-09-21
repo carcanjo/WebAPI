@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\WebAPI\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\webAPI\\WebAPI\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\WebAPI\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\webAPI\\WebAPI\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\WebAPI\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\webAPI\\WebAPI\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\WebAPI\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\webAPI\\WebAPI\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\cleit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\WebAPI\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\webAPI\\WebAPI\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -50,7 +50,7 @@
             "Microsoft.AspNetCore.Razor.Design": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[2.1.2, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -60,7 +60,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[5.0.0-rc.1.20453.2, )"
+              "version": "[2.1.10, )"
             }
           },
           "imports": [

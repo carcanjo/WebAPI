@@ -10,8 +10,8 @@ using UserServices.Models.Context;
 namespace WebAPI.Migrations
 {
     [DbContext(typeof(UsersContext))]
-    [Migration("20200916120412_UsersMigration")]
-    partial class UsersMigration
+    [Migration("20200921131357_Education")]
+    partial class Education
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -21,6 +21,19 @@ namespace WebAPI.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("UserServices.Models.Enuns.Education", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Educations");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Educations");
+                });
+
             modelBuilder.Entity("UserServices.Models.Users", b =>
                 {
                     b.Property<int>("Id")
@@ -29,7 +42,7 @@ namespace WebAPI.Migrations
 
                     b.Property<DateTime>("BirthDate");
 
-                    b.Property<int>("Education");
+                    b.Property<int>("EducationId");
 
                     b.Property<string>("Email")
                         .IsRequired();
@@ -44,7 +57,17 @@ namespace WebAPI.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("EducationId");
+
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("UserServices.Models.Users", b =>
+                {
+                    b.HasOne("UserServices.Models.Enuns.Education", "Education")
+                        .WithMany()
+                        .HasForeignKey("EducationId")
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
         }

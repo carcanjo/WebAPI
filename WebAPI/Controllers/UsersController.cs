@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using UserServices.Models;
 using UserServices.Models.Context;
+using UserServices.Models.Enuns;
 
 namespace WebAPI.Controllers
 {
@@ -27,7 +28,7 @@ namespace WebAPI.Controllers
         [HttpGet]
         public IEnumerable<Users> GetUsers()
         {
-            return _context.Users;
+            return _context.Users.ToList();
         }
 
         // GET: api/Users/5
