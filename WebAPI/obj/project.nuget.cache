@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DIaKVbp5V1gSfPbNHxvCZ7w574EYRvKOVBwO1wwJveP2OxrRZYjuuaFKAaEHzqBpZJe0rn0sMscCkJEZar2Y7g==",
+  "dgSpecHash": "OybcwGqkm7SIczRTIGSuBHV7+Dys/7clh6SoBkyw/iWOQvr6XgKpz4q4H/DKF/gqgC19AQ6GGQLEYiOQczHuXg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\webAPI\\WebAPI\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\RepositoryArcanjo\\webAPI\\WebAPI\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cleit\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",

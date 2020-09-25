@@ -23,6 +23,7 @@ namespace UserServices.Models
 
         [Required(ErrorMessage = "{0} é obrigatório")]
         public DateTime BirthDate { get; set; }
+        public int EducationId { get; set; }
 
         [Required(ErrorMessage = "{0} é obrigatório")]
         public Education Education { get; set; }

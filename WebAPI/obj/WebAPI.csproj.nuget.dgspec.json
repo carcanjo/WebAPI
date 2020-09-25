@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\webAPI\\WebAPI\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\RepositoryArcanjo\\webAPI\\WebAPI\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\webAPI\\WebAPI\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\RepositoryArcanjo\\webAPI\\WebAPI\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\webAPI\\WebAPI\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\RepositoryArcanjo\\webAPI\\WebAPI\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\webAPI\\WebAPI\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\RepositoryArcanjo\\webAPI\\WebAPI\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\cleit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\webAPI\\WebAPI\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\cleit\\OneDrive\\Área de Trabalho\\RepositoryArcanjo\\webAPI\\WebAPI\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
